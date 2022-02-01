@@ -97,7 +97,7 @@ export const StyledLogo = styled.img`
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px dashed var(--secondary);
+  border: 4px solid var(--accent);
   background-color: var(--accent);
   border-radius: 100%;
   width: 200px;
@@ -242,11 +242,12 @@ function App() {
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"}style={{ marginTop: -60}} />
-
-        <ResponsiveWrapper flex={1} style={{ padding: 10 }} test>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <img alt={"crazy Town"} src={"/config/images/web-gallery.png"} style={{ marginLeft: 54}} />
+    
+        <s.Container flex={1} jc={"center"} ai={"center"}>
+            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
+                <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>          
+          <s.SpacerLarge />
           <s.Container
             flex={2}
             jc={"center"}
@@ -407,9 +408,10 @@ function App() {
               </>
             )}
             <s.SpacerMedium />
-          </s.Container>        
+          </s.Container>
+          <s.SpacerLarge />         
         </ResponsiveWrapper>
-        <s.SpacerMedium />
+        <s.SpacerMedium />   
         <StyledCont>
           {CONFIG.TWITTER != "" ? (
             <StyledButtonFoot
