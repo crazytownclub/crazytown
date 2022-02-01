@@ -1,0 +1,20 @@
+{
+  "CONTRACT_ADDRESS": "0xDC412E222853F6c6Dbb57D071e48F67672f971BD",
+  "SCAN_LINK": "https://polygonscan.com/address/0xDC412E222853F6c6Dbb57D071e48F67672f971BD",
+  "TWITTER": "https://twitter.com/CrazyTownClub",
+  "OPENSEA": "https://opensea.io/collection/crazy-town",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Crazy Town",
+  "SYMBOL": "CT",
+  "MAX_SUPPLY": 2500,
+  "WEI_COST": 33000000000000000000,
+  "DISPLAY_COST": 33,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/crazy-town",
+  "SHOW_BACKGROUND": false
+}
